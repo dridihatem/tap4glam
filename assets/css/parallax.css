@@ -1,0 +1,81 @@
+#parallaxcmsblock{text-align: center;}
+.parallax-wrapper
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    max-width: 1903px;
+    background: url(../../images/template/bg-014.png) no-repeat fixed center center;
+    background-size: cover;
+}
+.parallax-wrapper .parallax-left
+{
+    width: 50%;
+    float: left;
+    background-color: rgba(0,0,0,0.8);
+    padding: 50px 115px;
+}
+.parallax-wrapper .bg-block
+{
+    text-align: left;
+    float: left;
+    padding: 50px 0;
+}
+.parallax-wrapper .bg-block .block-img{float: left;margin: 0 30px 0 0;}
+
+.parallax-wrapper .bg-block .block-img .para-img
+{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    color: #FFF;
+    font-size: 56px;
+}
+.parallax-text .text1
+{
+   color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 29px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    display: block;
+    margin: 15px 0 0;
+}
+.parallax-text .text2
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.7px;
+    line-height: 24px;
+    text-transform: none;
+    position: relative;
+    padding: 10px 0 0;
+    display: block;
+}
+.parallax-wrapper .parallax-text .bg-block:hover .text1
+{
+    color: #b88038;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.parallax-wrapper .bg-block:hover .block-img .para-img::after
+{
+    opacity: 1;
+transition: all 0.3s ease 0s;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-ms-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+}
